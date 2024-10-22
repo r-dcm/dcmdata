@@ -49,7 +49,7 @@ generate_ids <- function(n, characters, pct_numeric = 1, n_attempt = n * 3) {
   iter <- 0
   for (i in seq_along(ids)) {
     good_id <- FALSE
-    while(!good_id) {
+    while (!good_id) {
       iter <- iter + 1
       test_id <- paste(
         sample(

@@ -3,14 +3,15 @@
 \docType{data}
 \name{ecpe_data}
 \alias{ecpe_data}
+\alias{ecpe}
 \alias{ecpe_qmatrix}
 \title{Examination for the Certificate of Proficiency in English (ECPE)}
 \format{
 \code{ecpe_data} is a \link[tibble:tibble-package]{tibble} containing ECPE
 response data with 2,922 rows and 29 variables.
 \itemize{
-\item \code{resp_id}: Respondent identifier
-\item \code{E1}-\code{E28}: Dichotomous item responses to the 28 ECPE items
+\item \code{resp_id}: Respondent identifier.
+\item \code{E1}-\code{E28}: Dichotomous item responses to the 28 ECPE items.
 }
 
 \code{ecpe_qmatrix} is a \link[tibble:tibble-package]{tibble} that identifies
@@ -18,7 +19,7 @@ which skills are measured by each ECPE item. This section of the ECPE
 contains 28 items measuring 3 skills. The \code{ecpe_qmatrix} correspondingly is
 made up of 28 rows and 4 variables.
 \itemize{
-\item \code{item_id}: Item identifier, corresponds to \code{E1}-\code{E28} in \code{\link{ecpe_data}}
+\item \code{item_id}: Item identifier, corresponds to \code{E1}-\code{E28} in \code{ecpe_data}.
 \item \code{morphosyntactic}, \code{cohesive}, and \code{lexical}: Dichotomous indicator for
 whether or not the skill is measured by each item. A value of \code{1} indicates
 the skill is measured by the item and a value of \code{0} indicates the skill is

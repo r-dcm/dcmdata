@@ -18,8 +18,8 @@
 #'
 #' @format `ecpe_data` is a [tibble][tibble::tibble-package] containing ECPE
 #' response data with 2,922 rows and 29 variables.
-#' * `resp_id`: Respondent identifier
-#' * `E1`-`E28`: Dichotomous item responses to the 28 ECPE items
+#' * `resp_id`: Respondent identifier.
+#' * `E1`-`E28`: Dichotomous item responses to the 28 ECPE items.
 #'
 #' @references Buck, G., & Tatsuoka, K. K. (1998). Application of the rule-space
 #'   procedure to language testing: Examining attributes of a free response
@@ -37,13 +37,14 @@
 #'   attribute hierarchies. *Psychometrika, 79*(2), 317-339.
 #'   \doi{10.1007/s11336-013-9362-0}
 #' @rdname ecpe
+#' @aliases ecpe
 "ecpe_data"
 
 #' @format `ecpe_qmatrix` is a [tibble][tibble::tibble-package] that identifies
 #' which skills are measured by each ECPE item. This section of the ECPE
 #' contains 28 items measuring 3 skills. The `ecpe_qmatrix` correspondingly is
 #' made up of 28 rows and 4 variables.
-#' * `item_id`: Item identifier, corresponds to `E1`-`E28` in [`ecpe_data`]
+#' * `item_id`: Item identifier, corresponds to `E1`-`E28` in `ecpe_data`.
 #' * `morphosyntactic`, `cohesive`, and `lexical`: Dichotomous indicator for
 #'   whether or not the skill is measured by each item. A value of `1` indicates
 #'   the skill is measured by the item and a value of `0` indicates the skill is

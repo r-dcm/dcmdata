@@ -3,15 +3,16 @@
 \docType{data}
 \name{mdm_data}
 \alias{mdm_data}
+\alias{mdm}
 \alias{mdm_qmatrix}
-\title{MacReady & Dayton (1977) Multiplication Data}
+\title{MacReady & Dayton Multiplication Data (MDM)}
 \format{
 \code{mdm_data} is a \link[tibble:tibble-package]{tibble} containing responses
-to multiplication items, as described in MacReady & Dayton (1977). There are
-142 rows and 5 variables.
+to multiplication items, as described in MacReady and Dayton (1977). There
+are 142 rows and 5 variables.
 \itemize{
-\item \code{respondent}: Respondent identifier
-\item \code{mdm1}-\code{mdm4}: Dichotomous item responses to the 4 multiplication items
+\item \code{respondent}: Respondent identifier.
+\item \code{mdm1}-\code{mdm4}: Dichotomous item responses to the 4 multiplication items.
 }
 
 \code{mdm_qmatrix} is a \link[tibble:tibble-package]{tibble} that identifies
@@ -19,7 +20,7 @@ which skills are measured by each MDM item. This MDM data contains 4 items,
 all of which measure the skill of multiplication. The \code{mdm_qmatrix}
 correspondingly is made up of 4 rows and 2 variables.
 \itemize{
-\item \code{item}: Item identifier, corresponds to \code{mdm1}-\code{mdm4} in \code{\link{mdm_data}}
+\item \code{item}: Item identifier, corresponds to \code{mdm1}-\code{mdm4} in \code{mdm_data}.
 \item \code{multiplication}: Dichotomous indicator for whether or not the
 multiplication skill is measured by each item. A value of \code{1} indicates the
 skill is measured by the item and a value of \code{0} indicates the skill is not

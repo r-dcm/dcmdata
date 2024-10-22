@@ -1,0 +1,6 @@
+linters: linters_with_defaults() # see vignette("lintr")
+exclusions: list(
+    "R/import-standalone-obj-type.R",
+    "R/import-standalone-types-check.R"
+  )
+encoding: "UTF-8"
