@@ -1,0 +1,18 @@
+Package: dcmdata
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: person("W. Jake", "Thompson", email = "wjakethompson@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-7339-0300"))
+Description: More about what it does (maybe more than one line).
+    Continuation lines should be indented.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+Imports: 
+    cli,
+    rlang (>= 1.1.0),
+    tibble
+RoxygenNote: 7.3.1
+Roxygen: list(markdown = TRUE)
