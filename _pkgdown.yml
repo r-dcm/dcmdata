@@ -1,0 +1,20 @@
+url: https://dcmdata.r-dcm.org
+
+template:
+  package: rdcmtemplate
+  bootstrap: 5
+
+reference:
+- title: Real data sets
+  contents:
+  - mdm
+  - ecpe
+
+- title: Simulated data sets
+  contents:
+  - dtmr
+
+- title: Tools for simulating data
+  contents:
+  - generate_ids
+  - log_odds
