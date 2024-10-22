@@ -1,20 +1,29 @@
 Package: dcmdata
-Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Authors@R: person("W. Jake", "Thompson", email = "wjakethompson@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-7339-0300"))
+Title: Data Sets for Diagnostic Classification Modeling
+Version: 0.0.0.9000
+Authors@R: c(
+    person("W. Jake", "Thompson", , "wjakethompson@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-7339-0300")),
+    person("University of Kansas", role = "cph"),
+    person("Institute of Education Sciences", role = "fnd")
+  )
 Description: More about what it does (maybe more than one line).
     Continuation lines should be indented.
-License: GPL-3
-Encoding: UTF-8
-LazyData: true
+License: MIT + file LICENSE
+URL: https://dcmdata.r-dcm.org, https://github.com/r-dcm/dcmdata, https://r-dcm.github.io/dcmdata/
+BugReports: https://github.com/r-dcm/dcmdata/issues
 Depends: 
     R (>= 2.10)
 Imports: 
     cli,
     rlang (>= 1.1.0),
     tibble
-RoxygenNote: 7.3.1
+Config/testthat/edition: 3
+Config/Needs/website: r-dcm/rdcmtemplate
+Encoding: UTF-8
+Language: en-US
+LazyData: true
 Roxygen: list(markdown = TRUE)
-URL: https://github.com/r-dcm/dcmdata
-BugReports: https://github.com/r-dcm/dcmdata/issues
+RoxygenNote: 7.3.1
+Suggests: 
+    spelling
