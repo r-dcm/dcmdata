@@ -16,3 +16,5 @@ Imports:
     tibble
 RoxygenNote: 7.3.1
 Roxygen: list(markdown = TRUE)
+URL: https://github.com/r-dcm/dcmdata
+BugReports: https://github.com/r-dcm/dcmdata/issues
