@@ -7,7 +7,8 @@ test_that("MDM data follows expected structure", {
   expect_s3_class(mdm_data$respondent, "factor")
   expect_true(all(nchar(as.character(mdm_data$respondent)) == 5))
   expect_equal(length(levels(mdm_data$respondent)), nrow(mdm_data))
-  expect_equal(length(unique(mdm_data$respondent)), length(levels(mdm_data$respondent)))
+  expect_equal(length(unique(mdm_data$respondent)),
+               length(levels(mdm_data$respondent)))
   expect_equal(sort(as.character(mdm_data$respondent)),
                sort(levels(mdm_data$respondent)))
 
