@@ -41,7 +41,7 @@ proportions of alpha and numeric characters.</p>
 
     <div class="section level2">
     <h2 id="ref-usage">Usage<a class="anchor" aria-label="anchor" href="#ref-usage"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">generate_ids</span><span class="op">(</span><span class="va">n</span>, <span class="va">characters</span>, pct_numeric <span class="op">=</span> <span class="fl">1</span>, n_attempt <span class="op">=</span> <span class="va">n</span> <span class="op">*</span> <span class="fl">3</span><span class="op">)</span></span></code></pre></div>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">generate_ids</span><span class="op">(</span><span class="va">n</span>, <span class="va">characters</span>, prop_numeric <span class="op">=</span> <span class="fl">1</span>, n_attempt <span class="op">=</span> <span class="va">n</span> <span class="op">*</span> <span class="fl">3</span><span class="op">)</span></span></code></pre></div>
     </div>
 
     <div class="section level2">
@@ -56,8 +56,8 @@ proportions of alpha and numeric characters.</p>
 <dd><p>The number of characters to be included in each identifier.</p></dd>
 
 
-<dt id="arg-pct-numeric">pct_numeric<a class="anchor" aria-label="anchor" href="#arg-pct-numeric"></a></dt>
-<dd><p>The percentage of <code>characters</code> that should be numeric.
+<dt id="arg-prop-numeric">prop_numeric<a class="anchor" aria-label="anchor" href="#arg-prop-numeric"></a></dt>
+<dd><p>The proportion of <code>characters</code> that should be numeric.
 The default is <code>1</code> (i.e., all numbers). If less than 1, identifiers will
 also include lowercase and uppercase letters.</p></dd>
 
@@ -95,7 +95,7 @@ cannot be found.</p></dd>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">generate_ids</span><span class="op">(</span>n <span class="op">=</span> <span class="fl">10</span>, characters <span class="op">=</span> <span class="fl">5</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  [1] 65354 41614 65584 75530 02741 26195 51782 18595 02604 40163</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 10 Levels: 02604 02741 18595 26195 40163 41614 51782 65354 ... 75530</span>
-<span class="r-in"><span><span class="fu">generate_ids</span><span class="op">(</span>n <span class="op">=</span> <span class="fl">100</span>, characters <span class="op">=</span> <span class="fl">10</span>, pct_numeric <span class="op">=</span> <span class="fl">0.5</span><span class="op">)</span></span></span>
+<span class="r-in"><span><span class="fu">generate_ids</span><span class="op">(</span>n <span class="op">=</span> <span class="fl">100</span>, characters <span class="op">=</span> <span class="fl">10</span>, prop_numeric <span class="op">=</span> <span class="fl">0.5</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   [1] d8w42ZQ5H1 Wfg60A342l 993b2Se4nL i9y63jis77 p7chl257l6 6AaQ8j03y8</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   [7] 49HDnf13K2 477pK69UYz 07P2P09OVQ 3Vu2u3v6s3 qe5e11oB97 guOf6679P1</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  [13] 9Vz6R3Bm61 8pX0O000EI 19fI9LP64g 0mje219nQ0 v4kT49dF80 ef908V5h7c</span>
