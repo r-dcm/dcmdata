@@ -56,3 +56,13 @@ linked reference pages.
 - [DTMR](reference/dtmr.html): A data set based on the Diagnostic
   Teachers’ Multiplicative Reasoning assessment, described in [Bradshaw
   et al. (2014)](https://doi.org/10.1111/emip.12020).
+
+------------------------------------------------------------------------
+
+## Contributions and Code of Conduct
+
+Contributions are welcome. To ensure a smooth process, please review the
+[Contributing Guide](https://dcmdata.r-dcm.org/CONTRIBUTING.html).
+Please note that the dcmdata project is released with a [Contributor
+Code of Conduct](https://dcmdata.r-dcm.org/CODE_OF_CONDUCT.html). By
+contributing to this project, you agree to abide by its terms.
