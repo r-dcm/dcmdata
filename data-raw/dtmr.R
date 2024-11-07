@@ -9,7 +9,8 @@ devtools::load_all()
 dtmr_item <- read_xlsx(here("data-raw", "data-files", "dtmr.xlsx"),
                        sheet = "item-params")
 dtmr_strc <- read_xlsx(here("data-raw", "data-files", "dtmr.xlsx"),
-                       sheet = "strc-params")
+                       sheet = "strc-params") |>
+  mutate(prob = prob / sum(prob))
 dtmr_qmat <- read_xlsx(here("data-raw", "data-files", "dtmr.xlsx"),
                        sheet = "q-matrix")
 
