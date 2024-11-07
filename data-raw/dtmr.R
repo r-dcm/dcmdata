@@ -58,28 +58,28 @@ dtmr_qmatrix <- dtmr_qmat |>
   rename(referent_units = ru,
          partitioning_iterating = pi,
          appropriateness = app,
-         multiplicative_comparision = mc)
+         multiplicative_comparison = mc)
 
 # True values ------------------------------------------------------------------
 dtmr_true_items <- dtmr_item |>
   rename(referent_units = ru,
          partitioning_iterating = pi,
          appropriateness = app,
-         multiplicative_comparision = mc,
+         multiplicative_comparison = mc,
          referent_units__partitioning_iterating = ru_pi)
 
 dtmr_true_structural <- dtmr_strc |>
   rename(referent_units = ru,
          partitioning_iterating = pi,
          appropriateness = app,
-         multiplicative_comparision = mc,
+         multiplicative_comparison = mc,
          class_probability = prob)
 
 dtmr_true_profiles <- true_profiles |>
   rename(referent_units = ru,
          partitioning_iterating = pi,
          appropriateness = app,
-         multiplicative_comparision = mc)
+         multiplicative_comparison = mc)
 
 use_data(dtmr_data, dtmr_qmatrix,
          dtmr_true_items, dtmr_true_structural, dtmr_true_profiles,
