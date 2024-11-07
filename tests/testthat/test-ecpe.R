@@ -20,6 +20,6 @@ test_that("ECPE data follows expected structure", {
   expect_identical(ecpe_qmatrix$item_id, colnames(ecpe_data)[2:29])
 
   for (i in 2:ncol(ecpe_qmatrix)) {
-    expect_true(all(ecpe_data[[i]] %in% c(0L, 1L)))
+    expect_true(all(ecpe_qmatrix[[i]] %in% c(0L, 1L)))
   }
 })
