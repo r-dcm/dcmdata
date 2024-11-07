@@ -40,7 +40,7 @@ generate_ids <- function(n, characters, prop_numeric = 1, n_attempt = n * 3) {
   check_number_whole(n)
   check_number_whole(characters)
   check_number_decimal(prop_numeric, min = 0, max = 1)
-  check_number_whole(n_attempt)
+  check_number_whole(n_attempt, min = n)
 
   numbr <- round(characters * prop_numeric)
   alpha <- characters - numbr
@@ -65,7 +65,7 @@ generate_ids <- function(n, characters, prop_numeric = 1, n_attempt = n * 3) {
         ids[i] <- test_id
         good_id <- TRUE
       } else if (iter >= n_attempt) {
-        good_id <- TRUE
+        break
       }
     }
 
