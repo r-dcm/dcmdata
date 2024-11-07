@@ -5,7 +5,7 @@
 #'
 #' @param n The number of unique identifiers to generate.
 #' @param characters The number of characters to be included in each identifier.
-#' @param pct_numeric The percentage of `characters` that should be numeric.
+#' @param prop_numeric The proportion of `characters` that should be numeric.
 #'   The default is `1` (i.e., all numbers). If less than 1, identifiers will
 #'   also include lowercase and uppercase letters.
 #' @param n_attempt The number of allowed attempts for generating the requested
@@ -35,14 +35,14 @@
 #'
 #' @examples
 #' generate_ids(n = 10, characters = 5)
-#' generate_ids(n = 100, characters = 10, pct_numeric = 0.5)
-generate_ids <- function(n, characters, pct_numeric = 1, n_attempt = n * 3) {
+#' generate_ids(n = 100, characters = 10, prop_numeric = 0.5)
+generate_ids <- function(n, characters, prop_numeric = 1, n_attempt = n * 3) {
   check_number_whole(n)
   check_number_whole(characters)
-  check_number_decimal(pct_numeric, min = 0, max = 1)
+  check_number_decimal(prop_numeric, min = 0, max = 1)
   check_number_whole(n_attempt)
 
-  numbr <- round(characters * pct_numeric)
+  numbr <- round(characters * prop_numeric)
   alpha <- characters - numbr
 
   ids <- vector(mode = "character", length = n)

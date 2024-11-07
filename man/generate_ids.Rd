@@ -4,14 +4,14 @@
 \alias{generate_ids}
 \title{Generate Unique Identifiers}
 \usage{
-generate_ids(n, characters, pct_numeric = 1, n_attempt = n * 3)
+generate_ids(n, characters, prop_numeric = 1, n_attempt = n * 3)
 }
 \arguments{
 \item{n}{The number of unique identifiers to generate.}
 
 \item{characters}{The number of characters to be included in each identifier.}
 
-\item{pct_numeric}{The percentage of \code{characters} that should be numeric.
+\item{prop_numeric}{The proportion of \code{characters} that should be numeric.
 The default is \code{1} (i.e., all numbers). If less than 1, identifiers will
 also include lowercase and uppercase letters.}
 
@@ -46,5 +46,5 @@ proportions of alpha and numeric characters.
 }
 \examples{
 generate_ids(n = 10, characters = 5)
-generate_ids(n = 100, characters = 10, pct_numeric = 0.5)
+generate_ids(n = 100, characters = 10, prop_numeric = 0.5)
 }
