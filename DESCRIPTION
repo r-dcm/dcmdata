@@ -1,6 +1,6 @@
 Package: dcmdata
 Title: Data Sets for Diagnostic Classification Modeling
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: c(
     person("W. Jake", "Thompson", , "wjakethompson@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-7339-0300")),
@@ -12,7 +12,7 @@ Description: Access data sets for demonstrating or testing diagnostic
     model output to true data-generating values. Real data sets can be used to
     demonstrate real-world applications of diagnostic models.
 License: MIT + file LICENSE
-URL: https://dcmdata.r-dcm.org, https://github.com/r-dcm/dcmdata, https://r-dcm.github.io/dcmdata/
+URL: https://dcmdata.r-dcm.org, https://github.com/r-dcm/dcmdata
 BugReports: https://github.com/r-dcm/dcmdata/issues
 Depends: 
     R (>= 2.10)

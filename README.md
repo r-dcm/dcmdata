@@ -50,18 +50,20 @@ linked reference pages.
 
 ### Real data sets
 
-- [ECPE](reference/ecpe.html): Assessment data from the Examination for
-  the Certificate of Proficiency in English, as described in [Templin
-  and Hoffman (2013)](https://doi.org/10.1111/emip.12010).
-- [MDM](reference/mdm.html): A short integer multiplication assessment,
-  as described in [MacReady and Dayton
+- [ECPE](https://dcmdata.r-dcm.org/reference/ecpe.html): Assessment data
+  from the Examination for the Certificate of Proficiency in English, as
+  described in [Templin and Hoffman
+  (2013)](https://doi.org/10.1111/emip.12010).
+- [MDM](https://dcmdata.r-dcm.org/reference/mdm.html): A short integer
+  multiplication assessment, as described in [MacReady and Dayton
   (1977)](https://doi.org/10.2307/1164802).
 
 ### Simulated data sets
 
-- [DTMR](reference/dtmr.html): A data set based on the Diagnostic
-  Teachers’ Multiplicative Reasoning assessment, described in [Bradshaw
-  et al. (2014)](https://doi.org/10.1111/emip.12020).
+- [DTMR](https://dcmdata.r-dcm.org/reference/dtmr.html): A data set
+  based on the Diagnostic Teachers’ Multiplicative Reasoning assessment,
+  described in [Bradshaw et
+  al. (2014)](https://doi.org/10.1111/emip.12020).
 
 ------------------------------------------------------------------------
 

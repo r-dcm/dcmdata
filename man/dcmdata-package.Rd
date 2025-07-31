@@ -15,7 +15,6 @@ Useful links:
 \itemize{
   \item \url{https://dcmdata.r-dcm.org}
   \item \url{https://github.com/r-dcm/dcmdata}
-  \item \url{https://r-dcm.github.io/dcmdata/}
   \item Report bugs at \url{https://github.com/r-dcm/dcmdata/issues}
 }
 
