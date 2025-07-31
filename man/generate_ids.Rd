@@ -16,8 +16,16 @@ The default is \code{1} (i.e., all numbers). If less than 1, identifiers will
 also include lowercase and uppercase letters.}
 
 \item{n_attempt}{The number of allowed attempts for generating the requested
-number of identifiers. See details for more information.
-
+number of identifiers. See details for more information.}
+}
+\value{
+A factor vector of length \code{n}.
+}
+\description{
+Create unique alphanumeric identifiers with a specified character length and
+proportions of alpha and numeric characters.
+}
+\details{
 When identifiers are long (e.g., \code{characters} >= 10), it is slow and
 computationally intensive to find all possible permutations of the specified
 number of alpha and numeric characters.
@@ -35,14 +43,7 @@ For example, consider a request for 1,000 identifiers, each with 2 characters
 and only using numbers.
 With the number 0-9, there are only 100 possible two-character permutations.
 Thus, after \code{n_attempt}, the function will fail as 1,000 unique identifiers
-cannot be found.}
-}
-\value{
-A factor vector of length \code{n}.
-}
-\description{
-Create unique alphanumeric identifiers with a specified character length and
-proportions of alpha and numeric characters.
+cannot be found.
 }
 \examples{
 generate_ids(n = 10, characters = 5)

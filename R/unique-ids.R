@@ -11,6 +11,7 @@
 #' @param n_attempt The number of allowed attempts for generating the requested
 #'   number of identifiers. See details for more information.
 #'
+#' @details
 #' When identifiers are long (e.g., `characters` >= 10), it is slow and
 #' computationally intensive to find all possible permutations of the specified
 #' number of alpha and numeric characters.
