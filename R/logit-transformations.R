@@ -1,12 +1,12 @@
-#' Log-odds Transformation
+#' Log-odds transformation
 #'
 #' These functions implement the log-odds (or logit) transformation. This is a
 #' common transformation for psychometric models that is used to put
 #' probabilities on a continuous scale.
 #'
-#' @param x A number to be transformed
+#' @param x A number to be transformed.
 #'
-#' @return A transformed double
+#' @return A transformed double.
 #'
 #' @examples
 #' logit(0.6)

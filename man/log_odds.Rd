@@ -4,17 +4,17 @@
 \alias{log_odds}
 \alias{logit}
 \alias{inv_logit}
-\title{Log-odds Transformation}
+\title{Log-odds transformation}
 \usage{
 logit(x)
 
 inv_logit(x)
 }
 \arguments{
-\item{x}{A number to be transformed}
+\item{x}{A number to be transformed.}
 }
 \value{
-A transformed double
+A transformed double.
 }
 \description{
 These functions implement the log-odds (or logit) transformation. This is a

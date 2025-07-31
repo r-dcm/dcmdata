@@ -8,7 +8,7 @@
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-More about what it does (maybe more than one line). Continuation lines should be indented.
+Access data sets for demonstrating or testing diagnostic classification models. Simulated data sets can be used to compare estimated model output to true data-generating values. Real data sets can be used to demonstrate real-world applications of diagnostic models.
 }
 \seealso{
 Useful links:

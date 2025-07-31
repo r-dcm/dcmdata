@@ -1,4 +1,4 @@
-#' Diagnosing Teachers' Multiplicative Reasoning (DTMR)
+#' Diagnosing teachers' multiplicative reasoning (DTMR)
 #'
 #' This is a simulated data set modeled after the DTMR study described by
 #' Bradshaw et al. (2014) and Izsák et al. (2019). The data was simulated from

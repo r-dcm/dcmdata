@@ -5,7 +5,7 @@
 \alias{mdm_data}
 \alias{mdm}
 \alias{mdm_qmatrix}
-\title{MacReady & Dayton Multiplication Data (MDM)}
+\title{MacReady & Dayton multiplication data (MDM)}
 \format{
 \code{mdm_data} is a \link[tibble:tibble-package]{tibble} containing responses
 to multiplication items, as described in MacReady and Dayton (1977). There
@@ -42,4 +42,5 @@ MacReady, G. B., & Dayton, C. M. (1977). The use of probabilistic
 models in the assessment of mastery. \emph{Journal of Educational Statistics,
 2}(2), 99-120. \doi{10.2307/1164802}
 }
+\concept{Dayton}
 \keyword{datasets}

@@ -1,4 +1,4 @@
-#' MacReady & Dayton Multiplication Data (MDM)
+#' MacReady & Dayton multiplication data (MDM)
 #'
 #' This is a small data set of multiplication item responses. This data contains
 #' responses to 4 items from 142 respondents, which ask respondents to complete
@@ -9,6 +9,8 @@
 #' are 142 rows and 5 variables.
 #' * `respondent`: Respondent identifier.
 #' * `mdm1`-`mdm4`: Dichotomous item responses to the 4 multiplication items.
+#'
+#' @concept Dayton
 #'
 #' @references MacReady, G. B., & Dayton, C. M. (1977). The use of probabilistic
 #'   models in the assessment of mastery. *Journal of Educational Statistics,

@@ -1,4 +1,4 @@
-#' Generate Unique Identifiers
+#' Generate unique identifiers
 #'
 #' Create unique alphanumeric identifiers with a specified character length and
 #' proportions of alpha and numeric characters.

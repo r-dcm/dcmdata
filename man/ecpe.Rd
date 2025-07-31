@@ -5,7 +5,7 @@
 \alias{ecpe_data}
 \alias{ecpe}
 \alias{ecpe_qmatrix}
-\title{Examination for the Certificate of Proficiency in English (ECPE)}
+\title{Examination for the certificate of proficiency in English (ECPE)}
 \format{
 \code{ecpe_data} is a \link[tibble:tibble-package]{tibble} containing ECPE
 response data with 2,922 rows and 29 variables.
@@ -70,4 +70,5 @@ classification models: A family of models for estimating and testing
 attribute hierarchies. \emph{Psychometrika, 79}(2), 317-339.
 \doi{10.1007/s11336-013-9362-0}
 }
+\concept{English}
 \keyword{datasets}

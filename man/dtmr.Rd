@@ -8,7 +8,7 @@
 \alias{dtmr_true_structural}
 \alias{dtmr_true_profiles}
 \alias{dtmr_true_items}
-\title{Diagnosing Teachers' Multiplicative Reasoning (DTMR)}
+\title{Diagnosing teachers' multiplicative reasoning (DTMR)}
 \format{
 \code{dtmr_data} is a \link[tibble:tibble-package]{tibble} containing
 simulated DTMR response data with 990 rows and 28 variables.

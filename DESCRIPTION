@@ -7,8 +7,10 @@ Authors@R: c(
     person("University of Kansas", role = "cph"),
     person("Institute of Education Sciences", role = "fnd")
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
+Description: Access data sets for demonstrating or testing diagnostic
+    classification models. Simulated data sets can be used to compare estimated
+    model output to true data-generating values. Real data sets can be used to
+    demonstrate real-world applications of diagnostic models.
 License: MIT + file LICENSE
 URL: https://dcmdata.r-dcm.org, https://github.com/r-dcm/dcmdata, https://r-dcm.github.io/dcmdata/
 BugReports: https://github.com/r-dcm/dcmdata/issues
@@ -20,10 +22,12 @@ Imports:
     tibble
 Config/testthat/edition: 3
 Config/Needs/website: r-dcm/rdcmtemplate
+Config/Needs/documentation: openpharma/roxylint
+Config/roxylint: list(linters = roxylint::tidy)	
 Encoding: UTF-8
 Language: en-US
 LazyData: true
-Roxygen: list(markdown = TRUE)
+Roxygen: list(markdown = TRUE, roclets = c("namespace", "rd", "roxylint::roxylint"))
 RoxygenNote: 7.3.2
 Suggests: 
     spelling,

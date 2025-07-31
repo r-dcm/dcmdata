@@ -2,7 +2,7 @@
 % Please edit documentation in R/unique-ids.R
 \name{generate_ids}
 \alias{generate_ids}
-\title{Generate Unique Identifiers}
+\title{Generate unique identifiers}
 \usage{
 generate_ids(n, characters, prop_numeric = 1, n_attempt = n * 3)
 }

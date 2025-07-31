@@ -1,4 +1,4 @@
-#' Examination for the Certificate of Proficiency in English (ECPE)
+#' Examination for the certificate of proficiency in English (ECPE)
 #'
 #' This is data from the grammar section of the ECPE, administered annually by
 #' the English Language Institute at the University of Michigan. This data
@@ -20,6 +20,8 @@
 #' response data with 2,922 rows and 29 variables.
 #' * `resp_id`: Respondent identifier.
 #' * `E1`-`E28`: Dichotomous item responses to the 28 ECPE items.
+#'
+#' @concept English
 #'
 #' @references Buck, G., & Tatsuoka, K. K. (1998). Application of the rule-space
 #'   procedure to language testing: Examining attributes of a free response
