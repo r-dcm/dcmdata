@@ -6,6 +6,8 @@
 \alias{dcmdata-package}
 \title{dcmdata: Data Sets for Diagnostic Classification Modeling}
 \description{
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
 More about what it does (maybe more than one line). Continuation lines should be indented.
 }
 \seealso{
