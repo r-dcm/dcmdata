@@ -31,7 +31,7 @@
 #'   *Educational Measurement: Issues and Practice, 33*(1), 2-14.
 #'   \doi{10.1111/emip.12020}
 #' @references Izsák, A., Jacobson, E., & Bradshaw, L. (2019). Surveying
-#'   middle-grads teachers' reasoning about fraction arithmetic in terms of
+#'   middle-grades teachers' reasoning about fraction arithmetic in terms of
 #'   measured quantities. *Journal for Research in Mathematics Education,
 #'   50*(2), 156-209. \doi{10.5951/jresematheduc.50.2.0156}
 #' @rdname dtmr

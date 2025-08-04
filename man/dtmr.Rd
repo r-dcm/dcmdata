@@ -134,7 +134,7 @@ multidimensional test within the diagnostic classification framework.
 \doi{10.1111/emip.12020}
 
 Izsák, A., Jacobson, E., & Bradshaw, L. (2019). Surveying
-middle-grads teachers' reasoning about fraction arithmetic in terms of
+middle-grades teachers' reasoning about fraction arithmetic in terms of
 measured quantities. \emph{Journal for Research in Mathematics Education,
 50}(2), 156-209. \doi{10.5951/jresematheduc.50.2.0156}
 }
