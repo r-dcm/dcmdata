@@ -1,0 +1,17 @@
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://dcmdata.r-dcm.org/dev/CODE_OF_CONDUCT.html</loc></url>
+<url><loc>https://dcmdata.r-dcm.org/dev/CONTRIBUTING.html</loc></url>
+<url><loc>https://dcmdata.r-dcm.org/dev/LICENSE-text.html</loc></url>
+<url><loc>https://dcmdata.r-dcm.org/dev/LICENSE.html</loc></url>
+<url><loc>https://dcmdata.r-dcm.org/dev/authors.html</loc></url>
+<url><loc>https://dcmdata.r-dcm.org/dev/index.html</loc></url>
+<url><loc>https://dcmdata.r-dcm.org/dev/news/index.html</loc></url>
+<url><loc>https://dcmdata.r-dcm.org/dev/reference/dcmdata-package.html</loc></url>
+<url><loc>https://dcmdata.r-dcm.org/dev/reference/dtmr.html</loc></url>
+<url><loc>https://dcmdata.r-dcm.org/dev/reference/ecpe.html</loc></url>
+<url><loc>https://dcmdata.r-dcm.org/dev/reference/generate_ids.html</loc></url>
+<url><loc>https://dcmdata.r-dcm.org/dev/reference/index.html</loc></url>
+<url><loc>https://dcmdata.r-dcm.org/dev/reference/log_odds.html</loc></url>
+<url><loc>https://dcmdata.r-dcm.org/dev/reference/mdm.html</loc></url>
+</urlset>
+
