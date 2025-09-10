@@ -18,8 +18,8 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
-[![R package version](https://www.r-pkg.org/badges/version/dcmdata)](https://cran.r-project.org/package=measr)
-[![Package downloads](https://cranlogs.r-pkg.org/badges/grand-total/dcmdata)](https://cran.r-project.org/package=measr)</br>
+[![R package version](https://www.r-pkg.org/badges/version/dcmdata)](https://cran.r-project.org/package=dcmdata)
+[![Package downloads](https://cranlogs.r-pkg.org/badges/grand-total/dcmdata)](https://cran.r-project.org/package=dcmdata)</br>
 [![R-CMD-check](https://github.com/r-dcm/dcmdata/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/r-dcm/dcmdata/actions/workflows/R-CMD-check.yaml)
 [![Codecov test coverage](https://codecov.io/gh/r-dcm/dcmdata/branch/main/graph/badge.svg)](https://app.codecov.io/gh/r-dcm/dcmdata?branch=main)
 [![GitHub pages](https://github.com/r-dcm/dcmdata/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/r-dcm/dcmdata/actions/workflows/pkgdown.yaml)</br>
