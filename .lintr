@@ -1,6 +1,9 @@
 linters: linters_with_defaults() # see vignette("lintr")
 exclusions: list(
     "R/import-standalone-obj-type.R",
-    "R/import-standalone-types-check.R"
+    "R/import-standalone-types-check.R",
+    "R/timss03.R" = list(
+      line_length_linter = 54
+    )
   )
 encoding: "UTF-8"

@@ -15,7 +15,7 @@ License: MIT + file LICENSE
 URL: https://dcmdata.r-dcm.org, https://github.com/r-dcm/dcmdata
 BugReports: https://github.com/r-dcm/dcmdata/issues
 Depends: 
-    R (>= 2.10)
+    R (>= 3.5)
 Imports: 
     cli,
     rlang (>= 1.1.0),
@@ -28,7 +28,7 @@ Encoding: UTF-8
 Language: en-US
 LazyData: true
 Roxygen: list(markdown = TRUE, roclets = c("namespace", "rd", "roxylint::roxylint"))
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 Suggests: 
     spelling,
     testthat (>= 3.0.0)

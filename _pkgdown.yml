@@ -7,8 +7,13 @@ template:
 reference:
 - title: Real data sets
   contents:
-  - mdm
   - ecpe
+  - fraction
+  - mdm
+  - mcmi
+  - roarpa
+  - timss03
+  - timss07
 
 - title: Simulated data sets
   contents:
