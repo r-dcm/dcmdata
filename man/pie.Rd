@@ -151,15 +151,16 @@ approach, see ATLAS (2025a).
 \references{
 Accessible Teaching, Learning, and Assessment Systems. (2025a).
 \emph{PIE assessment design and development}. University of Kansas.
-\url{https://pie.atlas4learning.org/}
+\url{https://pie.atlas4learning.org/sites/default/files/documents/resources/PIE_Assessment_Design_Development_Technical_Report.pdf}
 
 Accessible Teaching, Learning, and Assessment Systems. (2025b).
 \emph{PIE pilot study: Design and administration evidence}. University of Kansas.
-\url{https://pie.atlas4learning.org/}
+\url{https://pie.atlas4learning.org/sites/default/files/documents/resources/PIE_Pilot_Study_Design_and_Administration_Evidence.pdf}
 
 Kim, E. M., Nash, B., & Swinburne Romine, R. (2024). \emph{Pathways
 for instructionally embedded assessment (PIE): Developing learning pathways
 for the PIE assessment system}. University of Kansas; Accessible Teaching,
-Learning, and Assessment Systems. \url{https://pie.atlas4learning.org/}
+Learning, and Assessment Systems.
+\url{https://pie.atlas4learning.org/sites/default/files/documents/resources/Developing_Learning_Pathways_for_the_PIE_Assessment_System.pdf}
 }
 \keyword{datasets}
