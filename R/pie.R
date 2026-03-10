@@ -41,12 +41,12 @@
 #' ## Assessment Design
 #'
 #' The PIE field test was administered as a fixed-form assessment during Spring
-#' 2024. During the field test, each student was assessed on all three levels within
-#' the learning pathway at a single point in time. Following the field test, the
-#' test development team reviewed item data and selected items for promotion to
-#' the pilot item pool. `pie_ft_data` includes only items that were promoted for
-#' use during the pilot administration. For more information on the PIE field
-#' test, see ATLAS (2025a).
+#' 2024. During the field test, each student was assessed on all three levels
+#' within the learning pathway at a single point in time. Following the field
+#' test, the test development team reviewed item data and selected items for
+#' promotion to the pilot item pool. `pie_ft_data` includes only items that were
+#' promoted for use during the pilot administration. For more information on the
+#' PIE field test, see ATLAS (2025a).
 #'
 #' During the pilot administration, teachers chose when to assess each of the
 #' learning standards. PIE assessments were intended to be adminstered at three
