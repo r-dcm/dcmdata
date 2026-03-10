@@ -121,7 +121,7 @@ administration. For more information on the PIE field test, see ATLAS
 (2025a).
 
 During the pilot administration, teachers chose when to assess each of
-the learning standards. PIE assessments were intended to be adminstered
+the learning standards. PIE assessments were intended to be administered
 at three points during the instructional cycle. The first assessment
 (`baseline`) was administered before the instructional cycle. The
 baseline assessment measured only Level 1 skills, allowing teachers to
@@ -147,25 +147,25 @@ in the field test and pilot data sets. There are three items that were
 promoted following the field test, but were not administered during the
 pilot. These items were either held back in the event that other items
 included in the pilot pool had to be removed and replaced during the
-pilot adminstration, or were assigned to a fixed-form end-of-year
+pilot administration, or were assigned to a fixed-form end-of-year
 assessment that is not included in this data. Additionally, there are
 five items that were administered during the pilot that were not
 directly field tested. These items are "twins" of other items that were
-field tested. For details on the item twinning approch, see ATLAS
+field tested. For details on the item twinning approach, see ATLAS
 (2025a).
 
 ## References
 
 Accessible Teaching, Learning, and Assessment Systems. (2025a). *PIE
 assessment design and development*. University of Kansas.
-<https://pie.atlas4learning.org/>
+<https://pie.atlas4learning.org/sites/default/files/documents/resources/PIE_Assessment_Design_Development_Technical_Report.pdf>
 
 Accessible Teaching, Learning, and Assessment Systems. (2025b). *PIE
 pilot study: Design and administration evidence*. University of Kansas.
-<https://pie.atlas4learning.org/>
+<https://pie.atlas4learning.org/sites/default/files/documents/resources/PIE_Pilot_Study_Design_and_Administration_Evidence.pdf>
 
 Kim, E. M., Nash, B., & Swinburne Romine, R. (2024). *Pathways for
 instructionally embedded assessment (PIE): Developing learning pathways
 for the PIE assessment system*. University of Kansas; Accessible
 Teaching, Learning, and Assessment Systems.
-<https://pie.atlas4learning.org/>
+<https://pie.atlas4learning.org/sites/default/files/documents/resources/Developing_Learning_Pathways_for_the_PIE_Assessment_System.pdf>
