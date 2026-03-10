@@ -14,6 +14,11 @@
 - [`mcmi_data`](https://dcmdata.r-dcm.org/dev/reference/mcmi.md)
   [`mcmi_qmatrix`](https://dcmdata.r-dcm.org/dev/reference/mcmi.md) :
   Millon Clinical Multiaxial Inventory-III (MCMI-III)
+- [`pie_ft_data`](https://dcmdata.r-dcm.org/dev/reference/pie.md)
+  [`pie_ft_qmatrix`](https://dcmdata.r-dcm.org/dev/reference/pie.md)
+  [`pie_pilot_data`](https://dcmdata.r-dcm.org/dev/reference/pie.md)
+  [`pie_pilot_qmatrix`](https://dcmdata.r-dcm.org/dev/reference/pie.md)
+  : Pathways for instructionally embedded assessment (PIE)
 - [`roarpa_data`](https://dcmdata.r-dcm.org/dev/reference/roarpa.md)
   [`roarpa_qmatrix`](https://dcmdata.r-dcm.org/dev/reference/roarpa.md)
   : Rapid online assessment of reading and phonological awareness
