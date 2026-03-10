@@ -1,4 +1,4 @@
-# dcmdata (development version)
+# dcmdata 0.2.0
 
 * Added new data from the Pathways for Instructionally Embedded Assessment (PIE)
   project: `pie_ft_data`, `pie_ft_qmatrix`, `pie_pilot_data`,
