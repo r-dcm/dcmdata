@@ -4,6 +4,9 @@ template:
   package: rdcmtemplate
   bootstrap: 5
 
+development:
+  mode: release
+
 reference:
 - title: Real data sets
   contents:
