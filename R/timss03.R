@@ -47,6 +47,10 @@
 #'   Warehouse (IRW): A resource for enhancing data usage in psychometrics.
 #'   *Behavior Research Methods, 57*, Article 276.
 #'   \doi{10.3758/s13428-025-02796-y}
+#' @references Skaggs, G., Wilkins, J. L. M., & Hein, S. F. (2016). Grain size
+#'   and parameter recovery with TIMSS and the general diagnostic model.
+#'   *International Journal of Testing, 16*(4), 310-330.
+#'   \doi{10.1080/15305058.2016.1145683}
 #' @references Su, Y.-L., Choi, K. M., Lee, W.-C., Choi, T., & McAninch, M.
 #'   (2013). *Hierarchical cognitive diagnostic analysis for TIMSS 2003
 #'   mathematics* (Research Report No. 35). University of Iowa, Center for

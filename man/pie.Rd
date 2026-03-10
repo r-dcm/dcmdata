@@ -116,7 +116,7 @@ promoted for use during the pilot administration. For more information on the
 PIE field test, see ATLAS (2025a).
 
 During the pilot administration, teachers chose when to assess each of the
-learning standards. PIE assessments were intended to be adminstered at three
+learning standards. PIE assessments were intended to be administered at three
 points during the instructional cycle. The first assessment (\code{baseline}) was
 administered before the instructional cycle. The baseline assessment measured
 only Level 1 skills, allowing teachers to evaluate whether their students
@@ -140,12 +140,12 @@ Notably, there is not a one-to-one correspondence between items included in
 the field test and pilot data sets. There are three items that were promoted
 following the field test, but were not administered during the pilot. These
 items were either held back in the event that other items included in the
-pilot pool had to be removed and replaced during the pilot adminstration, or
+pilot pool had to be removed and replaced during the pilot administration, or
 were assigned to a fixed-form end-of-year assessment that is not included in
 this data. Additionally, there are five items that were administered during
 the pilot that were not directly field tested. These items are "twins" of
-other items that were field tested. For details on the item twinning approch,
-see ATLAS (2025a).
+other items that were field tested. For details on the item twinning
+approach, see ATLAS (2025a).
 }
 }
 \references{
