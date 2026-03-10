@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">dcmdata</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.1.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.1.0.9000</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,7 +16,13 @@
 
     <div id="navbar" class="collapse navbar-collapse ms-3">
       <ul class="navbar-nav me-auto"><li class="nav-item"><a class="nav-link" href="../reference/index.html">Reference</a></li>
-<li class="active nav-item"><a class="nav-link" href="../news/index.html">Changelog</a></li>
+<li class="active nav-item dropdown">
+  <button class="nav-link dropdown-toggle" type="button" id="dropdown-news" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">News</button>
+  <ul class="dropdown-menu" aria-labelledby="dropdown-news"><li><h6 class="dropdown-header" data-toc-skip>Releases</h6></li>
+    <li><a class="external-link dropdown-item" href="https://r-dcm.org/blog/2025-08-dcmdata-0.1.0/">Version 0.1.0</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="../news/index.html">Changelog</a></li>
+  </ul></li>
       </ul><ul class="navbar-nav"><li class="nav-item"><form class="form-inline" role="search">
  <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="../search.json"></form></li>
 <li class="nav-item"><a class="external-link nav-link" href="https://github.com/r-dcm/dcmdata/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
@@ -32,8 +38,17 @@
     </div>
 
     <div class="section level2">
-<h2 class="pkg-version" data-toc-text="0.1.0" id="dcmdata-010">dcmdata 0.1.0<a class="anchor" aria-label="anchor" href="#dcmdata-010"></a></h2><p class="text-muted">CRAN release: 2025-08-20</p>
-<ul><li>Initial CRAN submission.</li>
+<h2 class="pkg-version" data-toc-text="development version" id="dcmdata-development-version">dcmdata (development version)<a class="anchor" aria-label="anchor" href="#dcmdata-development-version"></a></h2>
+<ul><li><p>Added new data from the Pathways for Instructionally Embedded Assessment (PIE) project: <code>pie_ft_data</code>, <code>pie_ft_qmatrix</code>, <code>pie_pilot_data</code>, <code>pie_pilot_qmatrix</code>.</p></li>
+<li>
+<p>Added new data sets from the <a href="https://itemresponsewarehouse.org/" class="external-link">Item Response Warehouse</a>.</p>
+<ul><li>Fraction subtraction: <code>fraction_data</code>, <code>fraction_qmatrix</code>.</li>
+<li>MCMI-III: <code>mcmi_data</code>, <code>mcmi_qmatrix</code>.</li>
+<li>ROAR-PA: <code>roarpa_data</code>, <code>roarpa_qmatrix</code>.</li>
+<li>TIMSS (2003): <code>timss03_data</code>, <code>timss03_qmatrix</code>.</li>
+<li>TIMSS (2007): <code>timss07_data</code>, <code>timss07_skill_qmatrix</code>, <code>timss07_topic_qmatrix</code>, <code>timss07_domain_qmatrix</code>.</li>
+</ul></li>
+<li><p>Added a <code>NEWS.md</code> file to track changes to the package.</p></li>
 </ul></div>
   </main></div>
 
@@ -43,7 +58,7 @@
 </div>
 
 <div class="pkgdown-footer-right">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.3.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.2.0.</p>
 </div>
 
     </footer></div>
