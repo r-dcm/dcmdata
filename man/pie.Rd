@@ -108,7 +108,7 @@ Kim et al. (2024).
 \subsection{Assessment Design}{
 
 The PIE field test was administered as a fixed-form assessment during Spring
-2024. During the field, each student was assessed on all three levels within
+2024. During the field test, each student was assessed on all three levels within
 the learning pathway at a single point in time. Following the field test, the
 test development team reviewed item data and selected items for promotion to
 the pilot item pool. \code{pie_ft_data} includes only items that were promoted for
@@ -129,9 +129,9 @@ their students are at, evaluate the progress they have made, and plan
 additional targeted instruction. The final assessment was administered at the
 end of the instructional unit (\code{end_of_unit}). This assessment included items
 measuring Level 3 skills for all students, as well as Level 2 skills for
-student who did not demonstrate mastery of those skills on the midway
+students who did not demonstrate mastery of those skills on the midway
 assessment. Teachers could again use this information to monitor their
-students' progress and make decision about next instructional steps.
+students' progress and make decisions about next instructional steps.
 In total, the three pathway levels were assessed over three timepoints. For
 additional information on the pilot design and administration, see ATLAS
 (2025b).
