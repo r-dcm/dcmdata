@@ -1,6 +1,8 @@
 # Changelog
 
-## dcmdata (development version)
+## dcmdata 0.2.0
+
+CRAN release: 2026-03-10
 
 - Added new data from the Pathways for Instructionally Embedded
   Assessment (PIE) project: `pie_ft_data`, `pie_ft_qmatrix`,
