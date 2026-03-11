@@ -16,7 +16,7 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/r-dcm/dcmdata/blob/main/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/r-dcm/dcmdata/blob/v0.2.0/DESCRIPTION)
 
 Thompson W (2026). *dcmdata: Data Sets for Diagnostic Classification
 Modeling*. R package version 0.2.0, <https://dcmdata.r-dcm.org>.
